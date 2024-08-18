@@ -272,19 +272,12 @@ const HomePage = () => {
 
   return (
     <div
-      style={{
-        display: 'flex',
-        flexDirection: 'row',
-        gap: '20px',
-        padding: '20px',
-        fontFamily: 'Arial, sans-serif',
-        backgroundColor: '#f4f4f9',
-        minHeight: '100vh',
-      }}
+      className='container'
     >
       <div
         style={{
-          flex: 1,
+          flex: '1 1 100%', // Bulmacayı tam genişlikte göster
+          maxWidth: '100%',
           borderRadius: '8px',
           boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
           backgroundColor: '#fff',
@@ -322,14 +315,7 @@ const HomePage = () => {
           />
         )}
       </div>
-      <div
-        style={{
-          flex: 1,
-          display: 'flex',
-          flexDirection: 'row',
-          gap: '20px',
-          flexWrap: 'wrap',
-        }}
+      <div className='question-container'
       >
         <div
           style={{
@@ -337,7 +323,7 @@ const HomePage = () => {
             borderRadius: '8px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
             padding: '20px',
-            flex: '1 1 45%',
+            flex: '1 1 100%', // Ekran küçüldüğünde soruları altta göstermek için
           }}
         >
           <h2 style={{ color: '#555' }}>Sol&#39;dan Sağ&#39;a</h2>
@@ -372,7 +358,7 @@ const HomePage = () => {
             borderRadius: '8px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
             padding: '20px',
-            flex: '1 1 45%',
+            flex: '1 1 100%', // Ekran küçüldüğünde soruları altta göstermek için
           }}
         >
           <h2 style={{ color: '#555' }}>Yukarıdan Aşağıya</h2>
@@ -404,6 +390,7 @@ const HomePage = () => {
       </div>
     </div>
   );
+  
 };
 
 export default HomePage;

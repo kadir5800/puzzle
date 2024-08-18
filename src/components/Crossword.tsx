@@ -12,7 +12,10 @@ interface CrosswordProps {
 const Crossword: React.FC<CrosswordProps> = ({ puzzle, setPuzzle, questionMap, selectedAnswer,setScore }) => {
   const gridSize = puzzle.length > 0 ? puzzle[0].length : 0;
   const [answerList, setAnswerList] = useState<{ x: number, y: number, direction: string; answer: string }[]>([]);
- 
+  const maxCellSize = 50;
+  
+  // Calculate the cell size with a scaling factor
+  const cellSize = Math.min(maxCellSize, window.innerWidth / gridSize / 2);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>, rowIndex: number, colIndex: number) => {
     const newPuzzle = [...puzzle];
@@ -107,72 +110,49 @@ const Crossword: React.FC<CrosswordProps> = ({ puzzle, setPuzzle, questionMap, s
   };
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: `repeat(${gridSize}, 2.5rem)`, gap: '2px' }}>
-      {puzzle.map((row, rowIndex) =>
-        row.map((cell, colIndex) => {
-          const cellKey = `${rowIndex}-${colIndex}`;
-          const isWhite = answerList.some(item => item.x === colIndex && item.y === rowIndex);
-          const isComplete = isAnswerComplete(rowIndex, colIndex);
-          const isCorrect = isComplete && isAnswerCorrect(rowIndex, colIndex);
-          const isSelected = isAnswerSelected(rowIndex, colIndex);
+    <div style={{ display: 'grid', gridTemplateColumns: `repeat(${gridSize}, ${cellSize}px)`, gap: '1px' }}>
+    {puzzle.map((row, rowIndex) =>
+      row.map((cell, colIndex) => {
+        const cellKey = `${rowIndex}-${colIndex}`;
+        const isWhite = answerList.some(item => item.x === colIndex && item.y === rowIndex);
+        const isComplete = isAnswerComplete(rowIndex, colIndex);
+        const isCorrect = isComplete && isAnswerCorrect(rowIndex, colIndex);
+        const isSelected = isAnswerSelected(rowIndex, colIndex);
 
-          return (
-            <div
-              key={cellKey}
-              style={{
-                position: 'relative',
-                width: '2.5rem',
-                height: '2.5rem',
-                textAlign: 'center',
-                marginTop:5,
-                border: '1px solid #000',
-                backgroundColor: isWhite
-                  ? (isComplete ? (isCorrect ? '#d4edda' : '#f8d7da') : isSelected
-                    ? '#e0f7fa' // Selected answer's background color
-                    : '#fff')
-                  : '#000', // Boş hücre beyaz, tamamlanmış ve doğru yeşil, yanlış kırmızı
-                boxSizing: 'border-box',
-              }}
-            >
-              {isWhite && (
-                <input
-                  type="text"
-                  maxLength={1}
-                  value={cell}
-                  onChange={(e) => handleChange(e, rowIndex, colIndex)}
-                  disabled={isCorrect} // Tamamlanmış hücreler düzenlenemez
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    textAlign: 'center',
-                    border: 'none',
-                    margin: '0',
-                    padding: '0',
-                    boxSizing: 'border-box',
-                    backgroundColor: 'transparent',
-                    color: '#000',
-                  }}
-                />
-              )}
-              {questionMap[cellKey] !== undefined && (
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '0',
-                    left: '0',
-                    fontSize: '0.75rem',
-                    padding: '0 2px',
-                  }}
-                >
-                  {questionMap[cellKey].number}
-                </div>
-              )}
-            </div>
-          );
-        })
-      )}
-    </div>
-  );
+        return (
+          <div
+            key={cellKey}
+            className={`cell ${isWhite ? 'cell-white' : 'cell-black'} ${isComplete ? (isCorrect ? 'complete correct' : 'complete incorrect') : ''} ${isSelected ? 'selected' : ''}`}
+            style={{
+              width: `${cellSize}px`,
+              height: `${cellSize}px`,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            {isWhite && (
+              <input
+                type="text"
+                maxLength={1}
+                value={cell}
+                onChange={(e) => handleChange(e, rowIndex, colIndex)}
+                disabled={isCorrect} // Tamamlanmış hücreler düzenlenemez
+                className="cell-input"
+                style={{ width: '100%', height: '100%', textAlign: 'center', fontSize: `${cellSize / 2}px` }}
+              />
+            )}
+            {questionMap[cellKey] !== undefined && (
+              <div className="question-number" style={{ position: 'absolute', top: '0', left: '0', fontSize: `${cellSize / 4}px` }}>
+                {questionMap[cellKey].number}
+              </div>
+            )}
+          </div>
+        );
+      })
+    )}
+  </div>
+);
 };
 
 export default Crossword;
