@@ -1,0 +1,502 @@
+[
+    {
+        "question": "Bir tür kokulu ince toz",
+        "answer": "TALK"
+    },
+    {
+        "question": "Zürih'te bulunan büyük göl",
+        "answer": "ZÜRİH GÖLÜ"
+    },
+    {
+        "question": "Dünya'nın uydusu",
+        "answer": "AY"
+    },
+    {
+        "question": "Bir kitap koleksiyonu",
+        "answer": "KÜTÜPHANE"
+    },
+    {
+        "question": "Üçüncü gezegen",
+        "answer": "DÜNYA"
+    },
+    {
+        "question": "Havanın bir hali",
+        "answer": "BULUTLU"
+    },
+    {
+        "question": "Yemek yenen yer",
+        "answer": "RESTORAN"
+    },
+    {
+        "question": "Yerden yükselme",
+        "answer": "UÇMAK"
+    },
+    {
+        "question": "Kışın yağan beyaz taneler",
+        "answer": "KAR"
+    },
+    {
+        "question": "İçilen bir sıvı",
+        "answer": "ÇAY"
+    },
+    {
+        "question": "Yaprak döken büyük bitki",
+        "answer": "AĞAÇ"
+    },
+    {
+        "question": "Denizde yaşayan büyük memeli hayvan",
+        "answer": "BALİNA"
+    },
+    {
+        "question": "İki tekerlekli taşıt",
+        "answer": "BİSİKLET"
+    },
+    {
+        "question": "Köpeğin çıkardığı ses",
+        "answer": "HAV"
+    },
+    {
+        "question": "Su taşıyan yapı",
+        "answer": "BORU"
+    },
+    {
+        "question": "Gözlük takılan organ",
+        "answer": "GÖZ"
+    },
+    {
+        "question": "Dünyanın en büyük okyanusu",
+        "answer": "PASİFİK"
+    },
+    {
+        "question": "Gökyüzünde görülen yıldız şekli",
+        "answer": "KUTUP YILDIZI"
+    },
+    {
+        "question": "Kuşların yaşam alanı",
+        "answer": "YUVA"
+    },
+    {
+        "question": "Sütten yapılan sarı besin",
+        "answer": "PEYNİR"
+    },
+    {
+        "question": "Bir tür soğuk içecek",
+        "answer": "LİMONATA"
+    },
+    {
+        "question": "Gözde kullanılan renkli araç",
+        "answer": "GÖZLÜK"
+    },
+    {
+        "question": "Bir tür müzik aleti",
+        "answer": "GİTAR"
+    },
+    {
+        "question": "Çizgi filmdeki sevilen karakter",
+        "answer": "MICKEY MOUSE"
+    },
+    {
+        "question": "Deniz altında yaşayan yumuşakçalar",
+        "answer": "AHTAPOT"
+    },
+    {
+        "question": "Bir tür tatlı meyve",
+        "answer": "ÇİLEK"
+    },
+    {
+        "question": "Ünlü bir Fransız kulesi",
+        "answer": "EYFEL"
+    },
+    {
+        "question": "Doğada yaşayan büyük yırtıcı",
+        "answer": "ASLAN"
+    },
+    {
+        "question": "Çorbanın içinde kullanılan tahıl",
+        "answer": "BUĞDAY"
+    },
+    {
+        "question": "Sabahları yapılan içecek",
+        "answer": "KAHVE"
+    },
+    {
+        "question": "Dişle çiğnenen tatlı yiyecek",
+        "answer": "SAKIZ"
+    },
+    {
+        "question": "Çiçeklerin nektarı ile yapılan tatlı",
+        "answer": "BAL"
+    },
+    {
+        "question": "Doğanın yeşil yüzü",
+        "answer": "ORMAN"
+    },
+    {
+        "question": "Evde beslenen tüylü hayvan",
+        "answer": "KEDİ"
+    },
+    {
+        "question": "Güneşin doğduğu yön",
+        "answer": "DOĞU"
+    },
+    {
+        "question": "Bir tür kırmızı sebze",
+        "answer": "DOMATES"
+    },
+    {
+        "question": "Gün ışığının kaynağı",
+        "answer": "GÜNEŞ"
+    },
+    {
+        "question": "Yağmurdan korunma aracı",
+        "answer": "ŞEMSİYE"
+    },
+    {
+        "question": "Bir tür spor aracı",
+        "answer": "TOP"
+    },
+    {
+        "question": "Bir tür su yırtıcısı",
+        "answer": "KÖPEKBALIĞI"
+    },
+    {
+        "question": "Yürüyerek seyahat eden kişi",
+        "answer": "YAYA"
+    },
+    {
+        "question": "Beynin kontrol ettiği organ",
+        "answer": "EL"
+    },
+    {
+        "question": "Bir tür şekerli sıvı",
+        "answer": "ŞERBET"
+    },
+    {
+        "question": "Gökyüzünde görülen renksiz doku",
+        "answer": "BULUT"
+    },
+    {
+        "question": "Sesin kaydedildiği araç",
+        "answer": "KASET"
+    },
+    {
+        "question": "Balığın yaşam alanı",
+        "answer": "SU"
+    },
+    {
+        "question": "Kırmızı renkli sıvı",
+        "answer": "KAN"
+    },
+    {
+        "question": "Sabahları yenilen öğün",
+        "answer": "KAHVALTI"
+    },
+    {
+        "question": "Toprak altında yetişen sebze",
+        "answer": "HAVUÇ"
+    },
+    {
+        "question": "Dünyanın en yüksek dağı",
+        "answer": "EVEREST"
+    },
+    {
+        "question": "Beyinle yönetilen düşünce",
+        "answer": "AKIL"
+    },
+    {
+        "question": "Bir tür sıcak tatlı",
+        "answer": "HELVA"
+    },
+    {
+        "question": "Seyahat edilen taşıt",
+        "answer": "OTOBÜS"
+    },
+    {
+        "question": "Dünyanın en derin çukuru",
+        "answer": "MARIANA ÇUKURU"
+    },
+    {
+        "question": "Bir tür kök sebze",
+        "answer": "PATATES"
+    },
+    {
+        "question": "Yaprak döken küçük bitki",
+        "answer": "ÇİÇEK"
+    },
+    {
+        "question": "Bir tür sarı metal",
+        "answer": "ALTIN"
+    },
+    {
+        "question": "El ile dokunan halı",
+        "answer": "KİLİM"
+    },
+    {
+        "question": "Doğada yetişen çalı tipi bitki",
+        "answer": "ÇALI"
+    },
+    {
+        "question": "Dünya yüzeyinin büyük kısmı",
+        "answer": "DENİZ"
+    },
+    {
+        "question": "Bir tür evcil kuş",
+        "answer": "MUHABBET KUŞU"
+    },
+    {
+        "question": "Suyun yüzeyinde kalan beyaz madde",
+        "answer": "BUHAR"
+    },
+    {
+        "question": "Çorba içine eklenen tahıl",
+        "answer": "ARPA"
+    },
+    {
+        "question": "Havanın bir durumu",
+        "answer": "YAĞMURLU"
+    },
+    {
+        "question": "Sabahları duyulan ses",
+        "answer": "KUŞ SESİ"
+    },
+    {
+        "question": "İçine oturulan dört tekerlekli taşıt",
+        "answer": "ARABA"
+    },
+    {
+        "question": "Doğada yaşayan yırtıcı hayvan",
+        "answer": "KAPLAN"
+    },
+    {
+        "question": "Dünyanın en büyük kara hayvanı",
+        "answer": "FİL"
+    },
+    {
+        "question": "Sıcak yaz meyvesi",
+        "answer": "KARPUZ"
+    },
+    {
+        "question": "Bir tür kuruyemiş",
+        "answer": "FINDIK"
+    },
+    {
+        "question": "Bir tür asitli içecek",
+        "answer": "GAZOZ"
+    },
+    {
+        "question": "Bir tür beyaz peynir",
+        "answer": "EZİNE"
+    },
+    {
+        "question": "Doğada yaşayan yırtıcı kuş",
+        "answer": "KARTAL"
+    },
+    {
+        "question": "Bir tür akvaryum balığı",
+        "answer": "JAPON BALIĞI"
+    },
+    {
+        "question": "Elde taşınan hafif örtü",
+        "answer": "ŞAL"
+    },
+    {
+        "question": "Kışın ısıtmak için kullanılan araç",
+        "answer": "SOBE"
+    },
+    {
+        "question": "Bir tür beyaz yağlı sıvı",
+        "answer": "SÜT"
+    },
+    {
+        "question": "Çorbanın içinde kullanılan yeşil bitki",
+        "answer": "MAYDANOZ"
+    },
+    {
+        "question": "Denizlerin tatlı su kaynağı",
+        "answer": "NEHİR"
+    },
+    {
+        "question": "Bir tür orman hayvanı",
+        "answer": "GEYİK"
+    },
+    {
+        "question": "Bir tür güneş koruyucu",
+        "answer": "ŞAPKA"
+    },
+    {
+        "question": "Bir tür yüzme aracı",
+        "answer": "MAYO"
+    },
+    {
+        "question": "Yerden yükselme aracı",
+        "answer": "ASANSÖR"
+    },
+    {
+        "question": "İçinde yolcu taşıyan araç",
+        "answer": "UÇAK"
+    },
+    {
+        "question": "Denizde kullanılan balıkçı ağı",
+        "answer": "AĞ"
+    },
+    {
+        "question": "Bir tür soğuk tatlı",
+        "answer": "DONDURMA"
+    },
+    {
+        "question": "Tatlı ve sarı renkli meyve",
+        "answer": "MUZ"
+    },
+    {
+        "question": "Bir tür deniz canlısı",
+        "answer": "YUNUS"
+    },
+    {
+        "question": "İçine çay konulan araç",
+        "answer": "DEMLİK"
+    },
+    {
+        "question": "Kışın üşümemek için kullanılan araç",
+        "answer": "MONT"
+    },
+    {
+        "question": "Bir tür beyaz sebze",
+        "answer": "KARNABAHAR"
+    },
+    {
+        "question": "Dişlerin fırçalandığı beyaz madde",
+        "answer": "DİŞ MACUNU"
+    },
+    {
+        "question": "Gökten düşen su damlası",
+        "answer": "YAĞMUR"
+    },
+    {
+        "question": "Üzerine yatılan büyük mobilya",
+        "answer": "YATAK"
+    },
+    {
+        "question": "Suyun katı hali",
+        "answer": "BUZ"
+    },
+    {
+        "question": "Yemek masasına serilen örtü",
+        "answer": "MASA ÖRTÜSÜ"
+    },
+    {
+        "question": "Bir tür hava taşıtı",
+        "answer": "HELİKOPTER"
+    },
+    {
+        "question": "Gözlerin üzerinde bulunan kıvrımlı kıl",
+        "answer": "KİRPİK"
+    },
+    {
+        "question": "Bir tür bahçe çiçeği",
+        "answer": "LALE"
+    },
+    {
+        "question": "Tatlı ve turuncu renkli meyve",
+        "answer": "PORTAKAL"
+    },
+    {
+        "question": "Yemek yenilen metal araç",
+        "answer": "ÇATAL"
+    },
+    {
+        "question": "Beyinde kullanılan düşünce aracı",
+        "answer": "ZİHİN"
+    },
+    {
+        "question": "Gökyüzünde görülen parlak cisim",
+        "answer": "YILDIZ"
+    },
+    {
+        "question": "Bir tür içi dolu hamur işi",
+        "answer": "BÖREK"
+    },
+    {
+        "question": "Bir tür yırtıcı kuş",
+        "answer": "ŞAHİN"
+    },
+    {
+        "question": "Havada süzülen renkli araç",
+        "answer": "BALON"
+    },
+    {
+        "question": "Bir tür küçük deniz canlısı",
+        "answer": "MİDYE"
+    },
+    {
+        "question": "Yüzmek için kullanılan su alanı",
+        "answer": "HAVUZ"
+    },
+    {
+        "question": "Tatlı ve sulu bir meyve",
+        "answer": "ELMA"
+    },
+    {
+        "question": "Doğada bulunan mavi taş",
+        "answer": "LAPİS LAZULİ"
+    },
+    {
+        "question": "Bir tür tatlı yiyecek",
+        "answer": "KEK"
+    },
+    {
+        "question": "Güneşten gelen ışık",
+        "answer": "GÜNEŞ IŞIĞI"
+    },
+    {
+        "question": "Bir tür sarı meyve",
+        "answer": "LİMON"
+    },
+    {
+        "question": "Güneşin batışı yönü",
+        "answer": "BATI"
+    },
+    {
+        "question": "Bir tür güneşli hava",
+        "answer": "AÇIK"
+    },
+    {
+        "question": "Bir tür beyaz meyve",
+        "answer": "KAVUN"
+    },
+    {
+        "question": "Bir tür yumuşak kumaş",
+        "answer": "KADİFE"
+    },
+    {
+        "question": "Bir tür renkli çiçek",
+        "answer": "GÜL"
+    },
+    {
+        "question": "Bir tür sarı çiçek",
+        "answer": "AYÇİÇEĞİ"
+    },
+    {
+        "question": "Yiyecek ve içeceklerin taşındığı kap",
+        "answer": "SEPET"
+    },
+    {
+        "question": "Doğada yaşayan hızlı koşan hayvan",
+        "answer": "ÇİTA"
+    },
+    {
+        "question": "Bir tür sıcak yemek",
+        "answer": "KARNIYARIK"
+    },
+    {
+        "question": "Bir tür küçük kuş",
+        "answer": "SERÇE"
+    },
+    {
+        "question": "Bir tür beyaz şeker",
+        "answer": "PUDRA ŞEKERİ"
+    },
+    {
+        "question": "Bir tür deniz taşıtı",
+        "answer": "GEMİ"
+    }
+]
