@@ -100,21 +100,21 @@ const canPlaceWord = (
     }
 
     // Komşu hücrelerin kontrolü (harfler farklı olduğunda yan yana olmamalı)
-    if (grid[cellY][cellX] === '' || grid[cellY][cellX] === char) {
-      if (direction === 'horizontal') {
-        if (
-          (cellY < grid.length - 1 && grid[cellY + 1][cellX] !== '' && grid[cellY + 1][cellX] !== char)
-        ) {
-          return false;
-        }
-      } else {
-        if (
-          (cellX > 0 && grid[cellY][cellX - 1] !== '' && grid[cellY][cellX - 1] !== char) 
-        ) {
-          return false;
-        }
-      }
-    }
+    // if (grid[cellY][cellX] === '' || grid[cellY][cellX] === char) {
+    //   if (direction === 'horizontal') {
+    //     if (
+    //       (cellY < grid.length - 1 && grid[cellY + 1][cellX] !== '' && grid[cellY + 1][cellX] !== char)
+    //     ) {
+    //       return false;
+    //     }
+    //   } else {
+    //     if (
+    //       (cellX > 0 && grid[cellY][cellX - 1] !== '' && grid[cellY][cellX - 1] !== char) 
+    //     ) {
+    //       return false;
+    //     }
+    //   }
+    // }
   }
 
   // Kelimenin başı ve sonu için boş hücre kontrolü
